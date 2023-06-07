@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "225224700504",
+    "firebase_url": "https://simplyart-a5a71-default-rtdb.firebaseio.com",
+    "project_id": "simplyart-a5a71",
+    "storage_bucket": "simplyart-a5a71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225224700504:android:1b87d30a8172a36bf0102d",
+        "android_client_info": {
+          "package_name": "com.example.simlyart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuAvmLTNLCyNW9Gp3MSrXMshN8QqSTgGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225224700504:android:90f791ffc4b4a49cf0102d",
+        "android_client_info": {
+          "package_name": "com.example.simplyart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuAvmLTNLCyNW9Gp3MSrXMshN8QqSTgGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225224700504:android:5404973966bc920af0102d",
+        "android_client_info": {
+          "package_name": "my.insta.androrealm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuAvmLTNLCyNW9Gp3MSrXMshN8QqSTgGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225224700504-p98ciedlsc5s7f2t4cmuhp6ipc7bd74l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

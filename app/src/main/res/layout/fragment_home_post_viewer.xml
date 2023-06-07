@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="15dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/fragment_home_post_viewer_user_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:civ_border_color="@color/instacenterclord"
+                    app:civ_border_width="0.5dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/fragment_home_post_viewer_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"/>
+
+
+
+            </LinearLayout>
+
+            <com.example.simplyart.Utils.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_home_post_viewer_post_image"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_home_post_viewer_txt_likes"
+                android:text="Понравилось"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:paddingTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_home_post_viewer_txt_caption"
+                android:text="Caption"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/fragment_home_post_viewer_txt_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="10dp"
+                android:text="Tags"
+                android:textColor="@color/lightgray"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:padding="13dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/fragment_home_post_viewer_img_heart"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/heart"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/fragment_home_post_viewer_img_heart_red"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/redheart"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/fragment_home_post_viewer_img_comments"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon__message" />
+
+                <ImageView
+                    android:id="@+id/fragment_home_post_viewer_img_send"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon__forward" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+<!--    <ProgressBar-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:id="@+id/fragment_home_post_viewer_ProgressBar"-->
+<!--        android:layout_centerInParent="true"/>-->
+
+
+</RelativeLayout>
